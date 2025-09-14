@@ -47,8 +47,8 @@ Prerequisites
  **Getting Started**
 
 ### **1. Clone/Download Project**
-git clone git clone git clone https://github.com/YOUR_USERNAME/nexys-ddr2-mig-example.git
-cd nexys-ddr2-mig-example
+git clone git clone git clone
+
 In Vivado TCL Console
 open_project mig_example.xpr
 
