@@ -20,34 +20,6 @@ Prerequisites
 - **FPGA**: Artix-7 XC7A100T-1CSG324C
 - **Memory**: MT47H64M16HR-25E DDR2 SDRAM (1Gb, x16)
 
-nexys-ddr2-mig-example/
-|
-|-- README.md                                   # This file
-|-- LICENSE                                     # MIT License
-|-- .gitignore                                  # Vivado project exclusions
-|
-|-- docs/
-|   |-- Nexys-4-Onboard-DDR2-MIG-Configuration.pdf  # Setup guide
-|
-|-- src/
-|   |-- mig_example_top.v                      # Top-level module
-|   |-- mem_example.v                          # Memory interface wrapper
-|   |-- constraints/
-|       |-- nexys4_ddr.xdc                     # Pin constraints
-|
-|-- ip/mig/                                     # MIG IP configuration
-|   |-- mig.xci                                # IP core config
-|   |-- mig_stub.v                             # Verilog stub
-|   |-- mig.ucf                                # Pin assignments
-|
-|-- sim/                                        # Simulation files
-|   |-- tb_mig_example.v                       # Testbench
-|   |-- ddr2_model.v                           # DDR2 model
-|   |-- wave_config.wcfg                       # Waveform config
-|
-|-- examples/                                   # Usage examples
-    |-- basic_read_write.v                     # Simple example
-    |-- burst_operations.v                     # Advanced example
 
 
  **Key Features**
