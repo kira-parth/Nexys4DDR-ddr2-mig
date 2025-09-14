@@ -47,7 +47,7 @@ Prerequisites
  **Getting Started**
 
 ### **1. Clone/Download Project**
-git clone git clone git clone
+git clone git clone git clone https://github.com/kira-parth/Nexys4DDR-ddr2-mig/tree/main
 
 In Vivado TCL Console
 open_project mig_example.xpr
